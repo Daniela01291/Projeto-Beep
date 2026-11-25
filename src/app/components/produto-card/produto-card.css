@@ -2,4 +2,29 @@
     border:1px solid #ccc;
     padding: 15px; 
     border-radius: 8px;
+    background: linear-gradient(rebeccapurple,#ff7e5f, #feb47b);
+}
+
+.produto-card:hover{
+    padding: 18px;
+}
+
+h2{
+    color: black;
+    animation: mudaCor 3s infinite;
+}
+
+@keyframes mudaCor{
+    from{
+        color:blue;
+    }
+    to{
+        color:rebeccapurple;
+    }
+    to{
+        color:greenyellow;
+    }
+    to{
+        color: deeppink;
+    }
 }
